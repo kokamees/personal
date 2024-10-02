@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock-Paper-Scissors</h1>
+
+
+    
+    <div class="choices">
+        <img id="1"onclick="playerChoice(`rock`)" src="images/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg">
+        <img id="2" onclick="playerChoice(`scissors`)" src="images/istockphoto-1043551106-612x612.jpg">
+        <img id="3" onclick="playerChoice(`paper`)" src="images/depositphotos_92680594-stock-photo-blank-paper-cartoon-character.jpg">
+
+    </div>
+
+    <div id="playerDisplay"> PLAYER:</div>
+    <div id="computerDisplay">COMPUTER:</div>
+
+    <div id="score-tracker"></div>
+
+    <div class="scoreDisplay">Player score: 
+        <span id="playerScoreDisplay">0</span>
+    </div>
+    <div class="scoreDisplay">Computer score: 
+        <span id="computerScoreDisplay">0</span>
+    </div>
+        
+        
+    <script src="index.js"></script>
+</body>
+</html>
